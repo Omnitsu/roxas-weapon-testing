@@ -55,7 +55,7 @@ assets:
  - name: 00objentry.bin
    method: listpatch
    type: List
-       source:
+   source:
        - name: ObjList.yml
          type: objentry
 
