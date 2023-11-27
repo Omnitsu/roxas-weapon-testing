@@ -1,0 +1,62 @@
+title: DW Roxas Ally(Over Donald)
+originalAuthor: Omniツ
+description: Custom Form Ally.Discord server for any questions! https://discord.gg/YMV6Ea2
+assets:
+ - name: obj/P_EX020.mdlx
+   method: copy
+   source:
+     - name: obj/P_EX020.mdlx
+ - name: obj/P_EX020.a.fm
+   method: copy
+   source:
+     - name: obj/P_EX020.a.fm
+ - name: obj/P_EX020.mset
+   method: copy
+   source:
+     - name: obj/P_EX020.mset
+ - name: obj/W_EX020.mdlx
+   method: copy
+   source:
+     - name: obj/W_EX020.mdlx
+ - name: obj/W_EX020.mset
+   method: copy
+   source:
+     - name: obj/W_EX020.mset
+ - name: obj/W_EX020_10.mdlx
+   method: copy
+   source:
+     - name: obj/W_EX020_10.mdlx
+ - name: obj/W_EX020_10.mset
+   method: copy
+   source:
+     - name: obj/W_EX020_10.mset
+ - name: obj/W_EX020_10.a.fm
+   method: copy
+   source:
+     - name: obj/W_EX020_10.a.fm
+ - name: 03system.bin
+   method: binarc
+   source:
+     - name: sklt 
+       type: list
+       method: listpatch
+       source:
+       - name: SkltList.yml
+         type: sklt
+ - name: 00battle.bin
+   method: binarc
+   source:
+     - name: atkp 
+       type: list
+       method: listpatch
+       source:
+       - name: AtkpList.yml
+         type: atkp
+ - name: 00objentry.bin
+   method: listpatch
+   type: List
+       source:
+       - name: ObjList.yml
+         type: objentry
+
+
